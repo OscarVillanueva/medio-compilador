@@ -15,6 +15,8 @@ public class Errors {
         this.errors.put(7, "No se esperaba la terminación del programa");
         this.errors.put(8, "Error no se esperaba un token se esperaba una ,");
         this.errors.put(9, "Error no se esperaba un token se esperaba un identificador, una constante o una expresion");
+        this.errors.put(10, "Error no se esperaba un token se esperaba el inicio del programa");
+        this.errors.put(11, "No se esperaba una definición solo se pueden hacer definiciones al inicio del programa");
     }
 
     public String error(int index){

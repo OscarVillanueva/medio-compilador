@@ -6,6 +6,7 @@ public class Sintactico {
     private String mustache = "must";
     private String log = "log";
     private String read = "read";
+    private String init = "init:";
 
     private String currentToken;
     private Errors errors;
@@ -18,9 +19,9 @@ public class Sintactico {
 
     public void whoiam(){
         switch (this.currentToken) {
-            case "def": //puede ser cambiado por un numero
+            /*case "def": //puede ser cambiado por un numero
                 this.definition();
-                break;
+                break;*/
 
             case "des":
                 this.decision();
@@ -42,14 +43,31 @@ public class Sintactico {
                 this.write();
                 break;
             default:
-                this.fatalError(this.errors.error(6));
+
+                if(this.currentToken.equals("def")) {
+                    this.fatalError(this.errors.error(11));
+                }
+                else
+                    this.fatalError(this.errors.error(6));
+
                 break;
         }
     }
 
     public void analize(){
 
-        this.currentToken = this.lex.nextToken();
+        this.newToken();
+
+        if(this.currentToken.equals(this.init)){
+            this.newToken();
+
+            while(this.currentToken.equals("def")){
+                this.definition();
+            }
+
+        }
+        else
+            fatalError(this.errors.error(10));
 
         while (!this.currentToken.equals(" ")) {
             this.whoiam();
