@@ -5,6 +5,7 @@ public class Sintactico {
     private String constant = "const";
     private String mustache = "must";
     private String log = "log";
+    private String read = "read";
 
     private String currentToken;
     private Errors errors;
@@ -34,9 +35,11 @@ public class Sintactico {
                 break;
 
             case "in":
+                this.in();
                 break;
 
             case "out":
+                this.write();
                 break;
             default:
                 this.fatalError(this.errors.error(6));
@@ -187,6 +190,67 @@ public class Sintactico {
             return false;
 
         return true;
+    }
+
+    public void in(){
+        this.newToken();
+
+        if(this.currentToken.equals(this.parenthesis)){
+            this.newToken();
+
+            if(this.currentToken.equals(this.id)){
+                this.newToken();
+
+                if(this.currentToken.equals(this.parenthesis)){
+                    this.newToken();
+                }
+                else
+                    this.fatalError(this.errors.error(2));
+
+            }
+            else
+                this.fatalError(this.errors.error(1));
+
+        }
+        else
+            this.fatalError(this.errors.error(2));
+    }
+
+    public void write(){
+        this.newToken();
+
+        if(this.currentToken.equals(this.parenthesis)){
+            boolean flag = true;
+
+            while(flag){
+                this.newToken();
+
+                if(this.currentToken.equals(this.id) || this.currentToken.equals(this.constant)){
+                    this.newToken();
+                }
+                else {
+                    this.fatalError(this.errors.error(4));
+                }
+
+                if(this.currentToken.equals(",")){
+                    flag = true;
+                }
+                else {
+                    flag = false;
+                }
+            }
+        }
+        else {
+            this.fatalError(this.errors.error(2));
+        }
+
+
+        if(!this.currentToken.equals(this.parenthesis)){
+            this.fatalError(this.errors.error(2));
+        }
+        else{
+            this.newToken();
+        }
     }
 
     private void contentOfStructure() {
