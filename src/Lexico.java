@@ -1,11 +1,11 @@
 public class Lexico {
-    String[] lex = new String[]{"mien", "idn", "op", "idn", "must",
+    /*String[] lex = new String[]{"mien", "idn", "op", "idn", "must",
             "des", "par", "idn", "op", "const", "par", "must",
             "def", "idn", "mov", "idn", ",", "idn",
             "must",
-            "must"};
+            "must"};*/
 
-    //String[] lex = new String[]{"mov", "idn", ",", "idn", "log", "const", "log", "idn", "log", "def"};
+    String[] lex = new String[]{"mov", "idn", ",", "idn", "log", "const", "log", "idn", "log", "idn"};
 
     int i = 0;
 
