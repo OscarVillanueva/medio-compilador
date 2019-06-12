@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4e305119-9225-4032-b584-fcec60a85667" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sintactico/Errors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sintactico/Errors.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sintactico/Lexico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sintactico/Lexico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Sintactico/Sintactico.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Sintactico/Sintactico.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Errors.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Errors.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Lexico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Lexico.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sintactico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sintactico.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sintactico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-              <folding>
-                <element signature="e#6919#6920#0" expanded="true" />
-                <element signature="e#6975#6976#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="4879">
+              <caret line="287" column="5" lean-forward="true" selection-start-line="287" selection-start-column="5" selection-end-line="287" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -38,12 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Errors.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#1010#1011#0" expanded="true" />
-                <element signature="e#1055#1056#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="289">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -51,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Lexico.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+            <state relative-caret-position="187">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -92,8 +78,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/inicio.java" />
-        <option value="$PROJECT_DIR$/src/Sintactico.java" />
         <option value="$PROJECT_DIR$/src/Errors.java" />
+        <option value="$PROJECT_DIR$/src/Sintactico.java" />
         <option value="$PROJECT_DIR$/src/Lexico.java" />
       </list>
     </option>
@@ -130,8 +116,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,7 +167,8 @@
       <workItem from="1559409367775" duration="1802000" />
       <workItem from="1559419921636" duration="2731000" />
       <workItem from="1559433086653" duration="11774000" />
-      <workItem from="1559512152279" duration="3053000" />
+      <workItem from="1559512152279" duration="3500000" />
+      <workItem from="1559700364596" duration="815000" />
     </task>
     <task id="LOCAL-00001" summary="ultima prueba de hoy">
       <created>1559444943913</created>
@@ -197,17 +184,24 @@
       <option name="project" value="LOCAL" />
       <updated>1559514322090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Ya esta lista el analizador">
+      <created>1559515389940</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559515389940</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19360000" />
+    <option name="totallyTimeSpent" value="20622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -216,7 +210,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32891566" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -245,27 +239,36 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ultima prueba de hoy" />
     <MESSAGE value="Ya quedarón todas las opciones solo me falta hacer lo de comienzo: def ... logica" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ya quedarón todas las opciones solo me falta hacer lo de comienzo: def ... logica" />
+    <MESSAGE value="Ya esta lista el analizador" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ya esta lista el analizador" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Sintactico.java</url>
-          <line>238</line>
+          <line>237</line>
           <properties />
           <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Sintactico.java</url>
-          <line>58</line>
-          <properties />
-          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Sintactico.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4879">
+          <caret line="287" column="5" lean-forward="true" selection-start-line="287" selection-start-column="5" selection-end-line="287" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Errors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/inicio.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -273,32 +276,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sintactico.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding>
-            <element signature="e#6919#6920#0" expanded="true" />
-            <element signature="e#6975#6976#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Errors.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#1010#1011#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Lexico.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+        <state relative-caret-position="187">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
         </state>
       </provider>
     </entry>
